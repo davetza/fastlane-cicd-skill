@@ -1,0 +1,49 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "fastlane-cicd-skill",
+  "version": "1.0.0",
+  "owner": {
+    "name": "davetza"
+  },
+  "metadata": {
+    "description": "Sets up Fastlane CI/CD pipeline with match code signing for iOS apps, including GitHub Actions workflows and TestFlight deployment."
+  },
+  "plugins": [
+    {
+      "name": "fastlane-cicd",
+      "description": "Sets up Fastlane CI/CD pipeline with match code signing for iOS apps, including GitHub Actions workflows and TestFlight deployment. Use when setting up automated builds, TestFlight deployment, or App Store releases for Xcode projects.",
+      "repository": "https://github.com/davetza/fastlane-cicd-skill",
+      "version": "1.0.0",
+      "author": {
+        "name": "davetza"
+      },
+      "license": "MIT",
+      "category": "devops",
+      "keywords": [
+        "fastlane",
+        "cicd",
+        "ios",
+        "testflight",
+        "match",
+        "github-actions",
+        "code-signing",
+        "xcode",
+        "apple",
+        "deployment"
+      ],
+      "tags": [
+        "fastlane",
+        "cicd",
+        "ios",
+        "testflight",
+        "code-signing",
+        "github-actions"
+      ],
+      "source": "./",
+      "skills": [
+        "./fastlane-cicd"
+      ],
+      "strict": false
+    }
+  ]
+}
