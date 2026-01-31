@@ -1,0 +1,22 @@
+{
+  "name": "fastlane-cicd",
+  "version": "1.0.0",
+  "description": "Sets up Fastlane CI/CD pipeline with match code signing for iOS apps, including GitHub Actions workflows and TestFlight deployment. Use when setting up automated builds, TestFlight deployment, or App Store releases for Xcode projects.",
+  "author": {
+    "name": "davetza"
+  },
+  "license": "MIT",
+  "keywords": [
+    "fastlane",
+    "cicd",
+    "ios",
+    "testflight",
+    "match",
+    "github-actions",
+    "code-signing",
+    "xcode",
+    "apple",
+    "deployment"
+  ],
+  "skills": ["./fastlane-cicd"]
+}
